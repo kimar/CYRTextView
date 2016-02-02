@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		EC6986731C616729008B2B54 /* CYRTextViewKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6986681C616729008B2B54 /* CYRTextViewKit.framework */; };
 		EC6986781C616729008B2B54 /* CYRTextViewKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6986771C616729008B2B54 /* CYRTextViewKitTests.m */; };
-		EC69868D1C61674F008B2B54 /* CYRLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6986831C61674F008B2B54 /* CYRLayoutManager.h */; };
+		EC69868D1C61674F008B2B54 /* CYRLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6986831C61674F008B2B54 /* CYRLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC69868E1C61674F008B2B54 /* CYRLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6986841C61674F008B2B54 /* CYRLayoutManager.m */; };
-		EC69868F1C61674F008B2B54 /* CYRTextStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6986851C61674F008B2B54 /* CYRTextStorage.h */; };
+		EC69868F1C61674F008B2B54 /* CYRTextStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6986851C61674F008B2B54 /* CYRTextStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC6986901C61674F008B2B54 /* CYRTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6986861C61674F008B2B54 /* CYRTextStorage.m */; };
-		EC6986911C61674F008B2B54 /* CYRTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6986871C61674F008B2B54 /* CYRTextView.h */; };
+		EC6986911C61674F008B2B54 /* CYRTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6986871C61674F008B2B54 /* CYRTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC6986921C61674F008B2B54 /* CYRTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6986881C61674F008B2B54 /* CYRTextView.m */; };
-		EC6986931C61674F008B2B54 /* CYRTextViewKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6986891C61674F008B2B54 /* CYRTextViewKit.h */; };
-		EC6986941C61674F008B2B54 /* CYRToken.h in Headers */ = {isa = PBXBuildFile; fileRef = EC69868A1C61674F008B2B54 /* CYRToken.h */; };
+		EC6986931C61674F008B2B54 /* CYRTextViewKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6986891C61674F008B2B54 /* CYRTextViewKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC6986941C61674F008B2B54 /* CYRToken.h in Headers */ = {isa = PBXBuildFile; fileRef = EC69868A1C61674F008B2B54 /* CYRToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC6986951C61674F008B2B54 /* CYRToken.m in Sources */ = {isa = PBXBuildFile; fileRef = EC69868B1C61674F008B2B54 /* CYRToken.m */; };
 		EC6986961C61674F008B2B54 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC69868C1C61674F008B2B54 /* Info.plist */; };
 /* End PBXBuildFile section */
@@ -120,9 +120,9 @@
 			files = (
 				EC6986941C61674F008B2B54 /* CYRToken.h in Headers */,
 				EC6986931C61674F008B2B54 /* CYRTextViewKit.h in Headers */,
-				EC69868F1C61674F008B2B54 /* CYRTextStorage.h in Headers */,
-				EC69868D1C61674F008B2B54 /* CYRLayoutManager.h in Headers */,
 				EC6986911C61674F008B2B54 /* CYRTextView.h in Headers */,
+				EC69868D1C61674F008B2B54 /* CYRLayoutManager.h in Headers */,
+				EC69868F1C61674F008B2B54 /* CYRTextStorage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
